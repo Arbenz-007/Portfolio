@@ -16,14 +16,14 @@ color:black ;
 html{
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
-  height: 100%;
+  height: 100vh;
 }
 .outline-text{
   color: transparent;
   -webkit-text-stroke:2px black;
 }
 .button-icons{
-  @apply h-12 w-12 cursor-pointer hover:scale-105 transition-transform duration-200
+  @apply h-8 w-8 sm:h-12 sm:w-12 cursor-pointer hover:scale-105 transition-transform duration-200
 }
 .hover-cards{
  @apply cursor-pointer hover:scale-105 transition-transform duration-200
@@ -35,7 +35,7 @@ html{
   @apply bg-purple-500/10 backdrop-blur-md shadow-lg
 }
 .project-sec{
-  @apply mt-8 flex justify-between 
+  @apply mt-8 flex flex-col sm:flex-row justify-between gap-4 sm:gap-0
 }
 
 @theme inline {

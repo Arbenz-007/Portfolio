@@ -12,9 +12,9 @@ const Home = () => {
     <>
       <Header />
       <div className="mt-[50px]">
-        <div className=" flex justify-between px-25">
+        <div className="flex flex-col lg:flex-row justify-between px-4 lg:px-25">
           <div className="">
-            <h1 className="font-family-sans text-5xl mb-7 leading-relaxed">
+            <h1 className="font-family-sans text-3xl lg:text-5xl mb-7 leading-relaxed">
               Hello, I'm <span className="font-bold">Rayyan</span>.
               <br />
               <span className="font-bold">Frontend</span>{" "}
@@ -24,13 +24,13 @@ const Home = () => {
               <br />
               Based in <span className="font-bold">India</span>.
             </h1>
-            <p className="font-family-sans text-xl text-gray-600">
+            <p className="font-family-sans text-lg sm:text-xl text-gray-600">
               I enjoy building responsive, user-friendly web interfaces with
               modern tools like React and TailwindCSS. Alongside development, I
               practice data structures and algorithms to improve my coding
               skills and strengthen my logical thinking.
             </p>
-            <div className="flex gap-7 pt-6">
+            <div className="flex gap-4 sm:gap-7 pt-6">
               <img src={fb} alt=" click me" className="button-icons" />
               <img src={x} alt=" click me" className="button-icons"/>
               <img src={discord} alt=" click me" className="button-icons" />
@@ -38,7 +38,7 @@ const Home = () => {
             </div>
           </div>
           <div className="">
-            <img src={Banner} alt="Banner image" className="w-[105vw]" />
+            <img src={Banner} alt="Banner image" className="w-full sm:w-[105vw]" />
           </div>
         </div>
       </div>

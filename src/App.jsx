@@ -26,16 +26,16 @@ function App() {
   return (
     <>
     {/* {show && <Header />} */}
-        <section id="home" className="h-screen w-full snap-start">
+        <section id="home" className="min-h-screen w-full snap-start">
           <Home />
         </section>
-        <section id="skills" className="h-screen w-full snap-start">
+        <section id="skills" className="min-h-screen w-full snap-start">
           <Skills />
         </section>
-        <section id="about" className="h-screen w-full snap-start">
+        <section id="about" className="min-h-screen w-full snap-start">
           <About />
         </section>
-        <section id="projects" className="snap-start">
+        <section id="projects" className="min-h-screen snap-start">
           <Projects />
         </section>
       </>

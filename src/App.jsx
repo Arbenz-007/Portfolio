@@ -4,6 +4,8 @@ import About from "./components/About";
 import Header from "./components/Header";
 import { useEffect, useState } from "react";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+
 
 function App() {
   const [show, setShow] = useState(true);
@@ -37,6 +39,9 @@ function App() {
         </section>
         <section id="projects" className="min-h-screen snap-start">
           <Projects />
+        </section>
+        <section id="projects" className="min-h-screen snap-start">
+          <Contact />
         </section>
       </>
   );

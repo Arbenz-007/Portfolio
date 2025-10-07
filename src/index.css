@@ -28,6 +28,9 @@ html{
 .hover-cards{
  @apply cursor-pointer hover:scale-105 transition-transform duration-200
 }
+.link_icon{
+  @apply cursor-pointer
+}
 .gradient-heading{
   @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500
 }
@@ -35,9 +38,11 @@ html{
   @apply bg-purple-500/10 backdrop-blur-md shadow-lg
 }
 .project-sec{
-  @apply mt-8 flex flex-col sm:flex-row justify-between gap-4 sm:gap-0
+  @apply mt-8 flex flex-col sm:flex-row justify-between gap-4 sm:gap-0 pointer-events-auto
 }
-
+.form-box{
+  @apply border-2 border-gray-700 mt-3.5 w-full rounded-xl h-[45px] p-2 
+}
 @theme inline {
 --radius-sm: calc(var(--radius) - 4px);
 --radius-md: calc(var(--radius) - 2px);

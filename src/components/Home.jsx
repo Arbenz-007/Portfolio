@@ -1,5 +1,4 @@
 import React from "react";
-import Saly from "../assets/Saly-16.png";
 import Header from "./Header";
 import Banner from "../assets/Banner.png";
 import fb from "../assets/fb.png"
